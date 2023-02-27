@@ -15,7 +15,7 @@ function App() {
   const [colors, setColors] = useState([]);
   const [isCorrect, setIsCorrect] = useState(false);
   const [isIncorrect, setIsIncorrect] = useState(false);
-  const [points, setPoints] = useState(9);
+  const [points, setPoints] = useState(0);
 
   const createHex = () => {
     return (
